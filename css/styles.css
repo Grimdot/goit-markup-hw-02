@@ -1,0 +1,110 @@
+:root {
+  --accent-color: #2196f3;
+  --main-color: #212121;
+  --secondary-color: #757575;
+  --background-color: #ffffff;
+  --secondary-background-color: #f5f4fa;
+  --backgound-accent-color: #2f303a;
+  --contrast-text-color: #ffffff;
+}
+
+body {
+  color: var(--main-color);
+  background-color: var(--background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  font-style: normal;
+}
+
+/* navigation styles */
+
+.main-nav .link {
+  color: var(--main-color);
+}
+
+.auth-nav .link {
+  color: var(--secondary-color);
+}
+
+.main-nav .link:hover,
+.main-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus,
+.footer .link:hover,
+.footer .link:focus {
+  color: var(--accent-color);
+}
+
+/* main styles */
+
+.content {
+  color: var(--secondary-color);
+}
+
+/* header styles */
+
+.logo {
+  color: var(--main-color);
+}
+
+.logo-accent {
+  color: var(--accent-color);
+}
+
+/* hero styles */
+
+.hero {
+  background-color: var(--backgound-accent-color);
+}
+
+.hero .button {
+  color: var(--contrast-text-color);
+  background-color: var(--accent-color);
+}
+
+.hero .button:hover,
+.hero .button:focus {
+  color: var(--main-color);
+  background-color: var(--secondary-background-color);
+}
+
+.hero-title {
+  color: var(--contrast-text-color);
+}
+
+/* footer styles */
+
+.footer {
+  background-color: var(--backgound-accent-color);
+}
+
+.footer .logo {
+  color: var(--contrast-text-color);
+}
+
+.footer .link {
+  color: var(--contrast-text-color);
+}
+
+.footer p {
+  font-style: normal;
+  color: var(--contrast-text-color);
+}
+
+/* button styles */
+
+.button {
+  color: var(--main-color);
+  background-color: var(--secondary-background-color);
+}
+
+.button:hover,
+.button:focus {
+  color: var(--contrast-text-color);
+  background-color: var(--accent-color);
+}
